@@ -85,7 +85,8 @@ Name a property of the element, with two special additions: a `+` postfix will
 
 
 Must be a Function, Number, String, or Boolean. Objects will be assessed using `.toString()`.
-Function Rule Object Values
+
+### Function Rule Object Values
 
 
 Defines events for keys like `onclick` and provides lambda for non-events. Use functions for events as properties, not as attributes. If you want to bind event attributes, use a string because functions are treated as lambda when attributes (@) are detected.

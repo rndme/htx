@@ -10,12 +10,12 @@ HTX is designed to facilitate transforming existing HTML into new/larger/fancier
 ### Possible Applications
 The small size and flexible input options open a wide range of suitable uses including:
 
- * Turning pretty HTML into Bootstrap View Components
+ * Turning [pretty HTML into Bootstrap](http://pagedemos.com/mpyyt8fv4yuj/) View Components
  * Transitioning content to a new theme
  * Previewing markup changes without affecting production sites
  * Virtual DOM update notation: find DOM differences, make an HTX list of patches, apply
  * Content template engine - ship an empty shell in HTML, fill dynamically from JS
- * Data-binding framework core - easily apply values from data to many DOM destinations
+ * [Data-binding framework core](http://pagedemos.com/ku3mehsfpqsk/) - easily apply values from remote data to many DOM destinations
 
 
 ### Install / Setup

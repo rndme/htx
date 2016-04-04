@@ -23,7 +23,9 @@ HTX is on NPM and Bower:
  `npm install htx` - or - `bower install htx`
 
 You can also load the script manually from any html page:
- `<script src=htx.js></script>`
+ `<script src=htx.js></script>` 
+ 
+There are no dependancies and the only requirement is ES5.
 
 ### Usage
 `htx(directives, rootElement);`
@@ -64,7 +66,6 @@ A collection of key:value pairs, or a string of content, an array of new clone's
 ### Rule Functions
 ```js
 h3: e=> data.animals.length + " animals total", // returns a string to set content
-
 ```
 Functions simply return one of the value types below in a late-run fashion.
 
@@ -72,7 +73,6 @@ Functions simply return one of the value types below in a late-run fashion.
 ### Rule String
 ```js
 "h3.status": "Ready", // a string sets content
-
 ```
 Strings simply define the content of any element(s) the key matches.
 
@@ -80,7 +80,6 @@ Strings simply define the content of any element(s) the key matches.
 ### Rule Arrays
 ```js
 option: ["M", "T", "W", "R", "F"], // populate select with days
-
 ```
 
 Arrays clone the matched element(s) and append one for each element of the array. If the array is an Array of Strings, the clone's content will be set by the string. If it's an Array of Objects, the rule objects procedure is applied to each clone.
@@ -107,7 +106,6 @@ Defines events for keys like `onclick` and provides lambda for non-events. Use f
     "@title":    (x, index)=> "Element #"+index,
     onclick: function(e){ alert("Clicks work!"); },
 }
-
 ```
 
 ### Array Rule Object Values
@@ -116,7 +114,6 @@ Define arguments to pass to an element method, and are only valid in that contex
 
 ```js
 "scrollIntoView":    [true, true]
-
 ```
 
 ### String/Number Rule Object Values
@@ -130,7 +127,6 @@ Set or append properties and attributes.
     "value+":    " appends to value property",
     "selectedIndex+": 1 // move to next option in a select
 }
-
 ```
 
 ### Boolean Rule Object Values
@@ -142,5 +138,4 @@ Controls boolean properties and attribs. In attribute mode, it will remove an at
     "@readonly":    false, // removes the readonly attrib
     hidden:    true // hides the element using the hidden DOM4 property
 }
-
 ```

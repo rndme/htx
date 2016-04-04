@@ -1,7 +1,7 @@
 # HTX
-
-
 Allows coding HTML transformation via a CSS-like declarative Object
+
+The initial spark of an idea credit is due to [https://beebole.com/pure/](pure.js), but htx is much smaller and simpler.
 
 ## Directives (akin to sheets)
 

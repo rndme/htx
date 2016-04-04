@@ -1,0 +1,19 @@
+{
+  "name": "htx",
+  "main": "htx.js",
+  "homepage": "https://github.com/rndme/htx",
+  "description": "html transformation syntax",
+  "moduleType": [
+    "amd",
+    "globals",
+    "node"
+  ],
+  "license": "CCBY4",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

@@ -13,6 +13,7 @@ The small size and flexible input options open a wide range of suitable uses inc
  * Turning [pretty HTML into Bootstrap](http://pagedemos.com/mpyyt8fv4yuj/) View Components
  * Transitioning content to a new theme
  * Previewing markup changes without affecting production sites
+ * Isomorphic apps - update a server0build chunk of markup from ajax or sockets as info arrives
  * Virtual DOM update notation: find DOM differences, make an HTX list of patches, apply
  * Content template engine - ship an empty shell in HTML, fill dynamically from JS
  * [Data-binding framework core](http://pagedemos.com/ku3mehsfpqsk/) - easily apply values from remote data to many DOM destinations
